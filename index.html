@@ -2,14 +2,25 @@
 <head><!--cria um campo onde você poderá colocar o titulo da página-->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    
+    <style>
+        background-color {
+    color: red;
+}
+    </style>
     <title>Document</title><!--nomeia a página-->
 </head>
 <body><!--abre um campo onde é possivel criar a estrutura do site-->
     <h1 id="inicio">meu nome</h1><!--cria um titulo na estrutura do site-->
     <h2>Matheus de gois</h2><!--cria um texto segundario-->
     <p>abaixo segue ele</p><!--cria um paragrafo-->
+    <p>acima segue ele</p>
+    <h1 style="font-family: Arial;">jogo</h1>
     <br><!--quebrar a linha-->
-     <p>Inicio:</p>
+     <p style="color: rgb(0, 255, 94);">Inicio:</p>
+     <a href="https://www.google.com.br/?hl=pt-BR">google</a>
+     <br>
      <a href="https://developer.mozilla.org/pt-BR/docs/Glossary/HTML">Projeto</a><!--referência um link-->
 <br>
      <img src="https://cdn.prod.website-files.com/6399c61683700ed8ab159d36/639fb85066f416b5bf185fcf_Ciclo-de-vida-de-um-projeto.png " alt="" width="200"><!--serve para adicionar uma imagem-->
@@ -18,11 +29,15 @@
     <li>meio</li>
     <li>fim</li> 
 </ul>
-<ol><!--serve para criar uma lista ordenada-->
+<ol style="list-style-type:circle"><!--serve para criar uma lista ordenada-->
     <li>inicio</li>
     <li>meio</li>
     <li>fim</li> 
 </ol>
+<br>
+<button class="destaque"> palavra</button>
+<br>
+<br>  
 <table border="10"><!--cria uma tabela-->
     <tr><!--cria uma linha na tabela-->
         <td>feijão</td><td>batata</td><!--cria uma cedula-->
@@ -34,10 +49,11 @@
         <td>tapioca</td><td>texto</td>
     </tr>
 </table>
-   <div><!--cria uma divisão-->
+   <div style="border: 2px ;"><!--cria uma divisão-->
     <h1>faz a mesma coisa</h1>
-<p>github</p>
+<p style="text-align: center;">github</p>
 </div>
+<div style="padding: 10px;">
 <form action=""><!--cria um formulario-->
     <input type="text"><!--cria uma caixa de entrada-->
     <button>envio</button><!--cria um botão-->
@@ -46,19 +62,20 @@
         <p>inicio</p>
         <a href="#inicio">voltar para o topo</a>
     </form>
-    <img src="https://s2-techtudo.glbimg.com/L9wb1xt7tjjL-Ocvos-Ju0tVmfc=/0x0:1200x800/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2023/q/l/TIdfl2SA6J16XZAy56Mw/canvaai.png" alt="panda fofo" width="300">
-    
+    <img src="https://s2-techtudo.glbimg.com/L9wb1xt7tjjL-Ocvos-Ju0tVmfc=/0x0:1200x800/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2023/q/l/TIdfl2SA6J16XZAy56Mw/canvaai.png" alt="panda fofo" width="300" style="width:  200px;">
+</div>
     <ul>
         <li><a href="https://www.google.com.br/?hl=pt-BR">google</a></li>
         <li><a href="https://www.youtube.com/">youtube</a></li>
         <li><a href="https://www.youtube.com/watch?v=mdlzdu6jZ30">engenheiros do havai</a></li> 
     </ul>
     <form action="">
-       nome <input type="text"><br>
-       email <input type="text"><br>
-       mensagem <input type="text"><br>
+       nome: <input type="text"><br>
+       email: <input type="text"><br>
+       mensagem: <input type="text"><br>
         <button>envio</button>
-        </form>
+    </form>
+    
     <strong>
         <p>negrito</p>
     </strong>
@@ -100,11 +117,15 @@
         </tr>
     </table>
 <div>
-    <a href="https://developer.mozilla.org/pt-BR/docs/Glossary/HTML" download="pdf">fala
+    <br>
+    <a href="images" download="png">download
 </div>
-    
-       senha<input type="text" name="" id="">
-<form action="">
+    <br>
+<form action="">   
+    senha<input type="text" name="" id="">
+</form>
+
+    <form action="">
 <input type="radio">pular
 <br>
 <input type="radio">pausar
@@ -120,13 +141,30 @@
 <input type="checkbox">parar
 <div>
 </form>
+
+<br>
+
 <dl>
     <dt>falar </dt><dd>ato de emitir som com o objetivo</dd>
     <dt>dialogar </dt><dd>ato de manter uma conversa com outra pessoa</dd>
 </dl>
 </div>
 
+<form action="">
 idade<input type="number"><br>
+</form>
 
-    </body>
+<p class="destaque1">belo</p>
+<p class="destaque2">argu</p>
+<p class="destaque3">mentos</p>
+
+criar uma conta no email<a href="https://accounts.google.com/lifecycle/steps/signup/name?ddm=0&dsh=S118347377:1725401830593880&flowEntry=SignUp&flowName=GlifWebSignIn&TL=AKeb6mzzs9iqTFQNtY1WRec9nYqS_vuqgdiNh9m8wxD_ZtDcaMcc45LpfWaSqQl6"></a>
+    
+<form action="">
+    escreva a data aqui:<input label="Data" type="number"></input>
+</form> 
+
+<script src="script.js"></script>
+  
+</body>
 </html>
